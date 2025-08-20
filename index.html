@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Rock ✊ Paper 🧻 Scissors ✂️</h1>
+    <div id="scoreboard">
+      <span>🧑 You: <span id="userScore">0</span></span>
+      <span>💻 Computer: <span id="compScore">0</span></span>
+    </div>
+    <div class="game-area">
+      <div class="choices">
+        <button class="choice-btn" data-choice="1">
+          <span class="emoji hand" aria-label="Rock">✊</span><br>Rock
+        </button>
+        <button class="choice-btn" data-choice="2">
+          <span class="emoji hand" aria-label="Paper">🧻</span><br>Paper
+        </button>
+        <button class="choice-btn" data-choice="3">
+          <span class="emoji hand" aria-label="Scissors">✂️</span><br>Scissors
+        </button>
+      </div>
+      <button id="quitBtn" class="quit-btn">Quit</button>
+    </div>
+    <div id="resultPanel" class="result-panel hidden">
+      <div class="hands">
+        <span id="userHand" class="hand-emoji"></span>
+        <span class="vs">VS</span>
+        <span id="compHand" class="hand-emoji"></span>
+      </div>
+      <p id="resultText" class="result-text"></p>
+      <button id="playAgainBtn">Play Again</button>
+    </div>
+    <div id="thanks" class="hidden thanks-msg">
+      <span>👋 Thanks for playing! Game Over.</span>
+      <button id="restartBtn">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
