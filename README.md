@@ -1,6 +1,6 @@
 # ✊🖐️✌️ Rock–Paper–Scissors
 
-🌐 **Live Demo:** [Rock–Paper–Scissors](https://yourusername.github.io/rock-paper-scissors/)
+🌐 **Live Demo:** [Rock–Paper–Scissors](https://atulispro1.github.io/rock-paper-sissor/)
 
 A fast, responsive, and fun **Rock–Paper–Scissors** game built with **HTML, CSS & JavaScript**.  
 Play against the computer, track your score, and try different modes!
